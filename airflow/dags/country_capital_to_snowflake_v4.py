@@ -25,7 +25,7 @@ def get_file_path(context):
 
     # 이 정보도 Variables에 저장하는 곳이 편리
     tmp_dir = "/tmp"
-
+    
     # DAG가 실행된 시점의 날짜를 읽어옴. 정확히는 그전날이나 그전시간임
     # logical_date에 대해서는 뒤에서 별도로 상세 설명
     date = context['logical_date']
